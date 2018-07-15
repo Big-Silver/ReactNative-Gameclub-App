@@ -1,0 +1,40 @@
+{
+  "name": "GameClubRedux",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.0.2",
+    "firebase": "^3.6.9",
+    "react": "15.4.2",
+    "react-native": "^0.39.0",
+    "react-native-image-progress": "^0.6.0",
+    "react-native-loading-spinner-overlay": "^0.4.1",
+    "react-native-navbar": "^1.6.0",
+    "react-native-progress": "^3.2.0",
+    "react-native-redux-router": "^1.0.7",
+    "react-native-router-flux": "^3.37.0",
+    "react-native-simple-modal": "^4.0.2",
+    "react-native-storage": "^0.1.5",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "redux-actions": "^1.2.1",
+    "redux-logger": "^2.8.1",
+    "redux-promise": "^0.5.3",
+    "redux-storage": "^4.1.2",
+    "redux-storage-engine-localstorage": "^1.1.4",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.1",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
